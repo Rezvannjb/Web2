@@ -1,6 +1,7 @@
 .instructor {
   padding: 2rem;
   background-color: #f0f8fa;
+  box-shadow: 0 0 50px 1px #000;
 }
 
 .instructor h3 {
