@@ -1,0 +1,14 @@
+.instructor {
+  padding: 2rem;
+  background-color: #f0f8fa;
+}
+
+.instructor h3 {
+  font-size: 1.8rem;
+  color: #006064;
+}
+
+.instructor p {
+  margin-top: 0.5rem;
+  color: #333;
+}
