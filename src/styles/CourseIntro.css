@@ -1,0 +1,14 @@
+.course-intro {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.course-intro h3 {
+  font-size: 1.8rem;
+  color: #00bcd4;
+}
+
+.course-intro p {
+  margin-top: 0.5rem;
+  color: #444;
+}

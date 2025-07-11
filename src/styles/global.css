@@ -1,0 +1,17 @@
+body {
+  direction: rtl;
+  margin: 0;
+  font-family: "Vazir", sans-serif;
+  background-color: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #008ba3;
+}
