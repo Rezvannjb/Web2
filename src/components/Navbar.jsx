@@ -24,7 +24,7 @@ const Navbar = () => {
         
         {/* بخش راست: لینک‌های ناوبری */}
         <div className="navbar-right">
-          <Link to="./Student" className="navbar-link">students</Link>
+          <Link to="./Students" className="navbar-link">students</Link>
           <Link to="/programs" className="navbar-link">About</Link>
           <Link to="/contact" className="navbar-link">Home</Link>
         </div>

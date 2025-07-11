@@ -1,9 +1,7 @@
-// src/components/CourseIntro.jsx
+
 import React from "react";
 import "../styles/CourseIntro.css";
-import CodingImg from "../assets/coding girl.svg"; // تصویر دلخواهت رو بذار اینجا
-
-// آیکون‌ها از react-icons
+import CodingImg from "../assets/coding girl.svg"; 
 import { FaUserGraduate, FaClock, FaTasks } from "react-icons/fa";
 
 const CourseIntro = () => {
@@ -15,10 +13,10 @@ const CourseIntro = () => {
 
       <div className="intro-right">
         <p className="intro-subtitle">معرفی درس برنامه‌نویسی وب ۲</p>
-        <h1 className="intro-title">یادگیری وب ۲، سریع، جذاب و کاربردی!</h1>
+        <h1 className="intro-title">!یادگیری وب ۲، سریع، جذاب و کاربردی</h1>
         <p className="intro-description">
-          این درس شامل آموزش‌های پروژه‌محور با تمرکز بر React، توسعه SPA و تمرین‌هایی برای
-          درک بهتر مفاهیم مدرن فرانت‌اند است. همراه با معرفی استاد، تمرین و پروژه‌های واقعی.
+        در این دوره، با مفاهیم پیشرفته طراحی وب، ساخت رابط کاربری حرفه‌ای، برنامه‌نویسی با جاوااسکریپت و ری‌اکت و ارتباط با سرور آشنا می‌شوید.
+این دوره کاملاً پروژه‌محور است و به شما کمک می‌کند تا یک وب‌سایت پویا و مدرن را از ابتدا تا انتها پیاده‌سازی کنید.
         </p>
 
         <div className="intro-buttons">

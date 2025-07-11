@@ -17,7 +17,7 @@ const InstructorIntro = () => {
           </div>
 
           <div className="instructor-info">
-            <h3 className="instructor-name">مهندس علی کریمی</h3>
+            <h3 className="instructor-name">مهندس جادی میرمیرانی </h3>
 
             <div className="instructor-stats">
               <div>
@@ -31,7 +31,7 @@ const InstructorIntro = () => {
             </div>
 
             <p className="instructor-bio">
-              استاد علی کریمی با بیش از ۱۰ سال تجربه در زمینه برنامه‌نویسی وب و تدریس حرفه‌ای،
+              استاد جادی میرمیرانی با بیش از ۱۰ سال تجربه در زمینه برنامه‌نویسی وب و تدریس حرفه‌ای،
               در این درس تلاش می‌کنه مفاهیم React و توسعه وب مدرن رو ساده و کاربردی آموزش بده.
             </p>
           </div>

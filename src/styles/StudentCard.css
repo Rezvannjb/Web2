@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* استفاده از auto-fill برای پرکردن فضای موجود */
   gap: 20px;
-  padding: 0px; /* اضافه کردن فاصله در اطراف */
+  padding: 0px; 
 }
 
 
@@ -48,13 +48,13 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background-color: #5a4e7c; /* مشابه بنفش عکس courses */
+  background-color: #5a4e7c; 
   color: white;
   border: none;
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  font-size: 20px;
+  font-size: 50px;
   line-height: 28px;
   text-align: center;
   cursor: pointer;
@@ -79,7 +79,7 @@
 .student-info p {
   margin: 0;
   color: #666;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 .add-btn {
   background-color: #9e8ccf;
