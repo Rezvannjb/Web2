@@ -1,14 +1,110 @@
 .course-intro {
-  padding: 2rem;
-  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.course-intro h3 {
-  font-size: 1.8rem;
-  color: #00bcd4;
+.intro-left {
+  flex: 1;
+  text-align: center;
 }
 
-.course-intro p {
-  margin-top: 0.5rem;
-  color: #444;
+.intro-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.intro-right {
+  flex: 1;
+  text-align: right;
+}
+
+.intro-subtitle {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.intro-title {
+  font-size: 2.2rem;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.intro-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.intro-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.gold-btn {
+  background-color: #c9a849;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.gold-btn:hover {
+  background-color: #b0913f;
+}
+
+.outline-btn {
+  background-color: transparent;
+  color: #c9a849;
+  border: 2px solid #c9a849;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.outline-btn:hover {
+  background-color: #c9a849;
+  color: white;
+}
+
+.intro-stats {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+
+.intro-stats div {
+  text-align: center;
+}
+
+.intro-stats strong {
+  font-size: 1.5rem;
+  display: block;
+  color: #222;
+}
+
+.intro-stats span {
+  font-size: 0.9rem;
+  color: #666;
+  display: block;
+  margin-top: 0.2rem;
 }

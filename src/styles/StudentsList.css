@@ -1,15 +1,14 @@
 .students-list {
-  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #fff;
 }
 
-.students-list h3 {
-  font-size: 1.8rem;
-  color: #00acc1;
-  margin-bottom: 1rem;
-}
-
-.students-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2c2c2c;
 }

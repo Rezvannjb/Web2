@@ -1,15 +1,66 @@
 .instructor {
-  padding: 2rem;
-  background-color: #f0f8fa;
-  box-shadow: 0 0 50px 1px #000;
+  background: #fff;
+  padding: 4rem 2rem;
+  direction: rtl;
+  text-align: right;
 }
 
-.instructor h3 {
-  font-size: 1.8rem;
-  color: #006064;
+.instructor-content {
+  max-width: 1100px;
+  margin: auto;
 }
 
-.instructor p {
-  margin-top: 0.5rem;
-  color: #333;
+.instructor-title {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  border-right: 4px solid #c9a849;
+  padding-right: 0.5rem;
+}
+
+.instructor-box {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.instructor-info {
+  flex: 1;
+}
+
+.instructor-name {
+  font-size: 1.5rem;
+  color: #c9a849;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.instructor-stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.instructor-stats div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.instructor-bio {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.instructor-img img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #c9a849;
 }

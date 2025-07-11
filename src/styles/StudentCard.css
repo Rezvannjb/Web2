@@ -1,24 +1,130 @@
-.studentCard {
+.students-list {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* استفاده از auto-fill برای پرکردن فضای موجود */
+  gap: 20px;
+  padding: 0px; /* اضافه کردن فاصله در اطراف */
+}
+
+
+.student-card {
   background-color: white;
-  border: 1px solid #e0f7fa;
   border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 188, 212, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .student-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 188, 212, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.student-card h4 {
-  margin: 0;
+.student-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.student-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.student-card:hover .student-image {
+  transform: scale(1.05);
+}
+
+.details-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #5a4e7c; /* مشابه بنفش عکس courses */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+  background-color: #7b68ee;
+}
+
+.student-info {
+  padding: 15px 20px;
+}
+
+.student-info h4 {
+  margin: 0 0 8px 0;
   font-size: 1.2rem;
-  color: #00796b;
+  color: #3b3b3b;
 }
 
-.student-card p {
-  color: #777;
-  font-size: 0.9rem;
+.student-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+.add-btn {
+  background-color: #9e8ccf;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #7a67c7;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffcf66;
+  color: #333;
+}
+
+.edit-btn:hover {
+  background-color: #ffb500;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #e63946;
 }
